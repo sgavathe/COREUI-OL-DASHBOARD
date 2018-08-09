@@ -1,0 +1,24 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "@coreui/coreui/scss/coreui.scss";
+// Temp fix for reactstrap
+@import '@coreui/coreui/scss/_dropdown-menu-right.scss';
+
+// If you want to add something do it here
+@import "custom";
+
+// ie fixes
+@import "ie-fix";
+
+.map { height: 400px; }
+
+
+//@import '@ol/ol.css';
+//@import "node_modules/@coreui/coreui/scss/variables";
+//@import 'style-loader!ol/ol.css';
+//import 'style-loader!ol-ext/control/Permalink.css'
+//import 'style-loader!ol-ext/control/Search.css'
+//import 'style-loader!ol-ext/control/Swipe.css'
+
