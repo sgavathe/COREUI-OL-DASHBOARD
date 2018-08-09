@@ -1,0 +1,6 @@
+{
+  "name": "Demographics",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Demographics.js"
+}
